@@ -1,0 +1,13 @@
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+\. "$HOME/.nvm/nvm.sh"
+
+nvm install 22
+
+git clone https://github.com/notpoweredG/tank_server/v0.1.1.git
+
+cd v0.1.1
+
+npm install
+
+node server.js

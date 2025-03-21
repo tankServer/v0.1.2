@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tank Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Tank Control Panel</h1>
+    <div class="status"><h2 id="status">Loading...</h2></div>
+
+    <div class="container" id="forward">
+        <button class="button" data-side="L" data-direction="forward">Forward<br>Left</button>
+        <button class="button" data-side="A" data-direction="forward">Forward<br>All</button>
+        <button class="button" data-side="R" data-direction="forward">Forward<br>Right</button>
+    </div>
+    <div class="container" id="stop">
+        <button class="button stop" data-side="A" data-direction="stop">Stop</button>
+    </div>
+    <div class="container" id="back">
+        <button class="button" data-side="L" data-direction="back">Back<br> Left</button>
+        <button class="button" data-side="A" data-direction="back">Back<br> All</button>
+        <button class="button" data-side="R" data-direction="back">Back<br> Right</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+html {
+    background-color: dimgray;
+    font-family: sans-serif;
+}
+.button {
+    display: inline-block;
+    padding: 20px 40px;
+    margin: 10px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: darkgrey;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.stop {
+    background-color: black;
+    color: white;
+}
+.forward-active {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+.back-active {
+    background-color: #f44336;
+    color: white;
+    border-color: #f44336;
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+.status {
+    margin: 20px;
+    padding: 10px;
+    background: darkgrey;
+}
