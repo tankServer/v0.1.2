@@ -4,7 +4,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
 nvm install 22
 
-git clone https://github.com/notpoweredG/tank_server/v0.1.1.git
+git clone https://github.com/tankServer/v0.1.2.git
 
 cd v0.1.1
 
