@@ -6,7 +6,7 @@ nvm install 22
 
 git clone https://github.com/tankServer/v0.1.2.git
 
-cd v0.1.1
+cd v0.1.2
 
 npm install
 
